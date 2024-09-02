@@ -8,7 +8,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "python3 /workspaces/soul/soul.py",
+    "postStartCommand": "python /workspaces/venom-v12/venom.py",
     "customizations": {
         "vscode": {
             "settings": {
